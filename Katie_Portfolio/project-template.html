@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="utf-8">
+
+     <!--Site metadata and SEO-->
+     <title>Student Name | Project Name</title>
+     <meta name="description" content="Put your name, tagline, and SEO description here">
+
+     <!--Responsive design call-->
+     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+     <!--Stylesheets-->
+     <link rel="stylesheet" type="text/css" href="css/reset.css">
+     <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+     <!--Favicon-->
+     <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+</head>
+
+<body>
+
+     <!--Header and Navigation-->
+     <header>
+          <a href="index.html#top" onclick="closeMobileNav()">
+               <h1>Student Name</h1>
+          </a>
+     </header>
+
+     <nav id="nav">
+          <a href="index.html#section-1" onclick="closeMobileNav()">Section 1</a>
+          <a href="index.html#section-2" onclick="closeMobileNav()">Section 2</a>
+          <a href="index.html#section-3" onclick="closeMobileNav()">Section 3</a>
+          <a href="index.html#section-4" onclick="closeMobileNav()">Section 4</a>
+     </nav>
+
+     <!--Mobile menu-->
+     <input type="checkbox" id="active" class="mobile-nav-input" aria-hidden="true">
+     <div class="menu cross menu--1" aria-hidden="true">
+          <label>
+               <input id="checkbox" type="checkbox" onclick="toggleMobileNav()" class="mobile-nav-input">
+               <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="50" cy="50" r="30" />
+                    <path class="line--1" d="M0 40h62c13 0 6 28-4 18L35 35" />
+                    <path class="line--2" d="M0 50h70" />
+                    <path class="line--3" d="M0 60h62c13 0 6-28-4-18L35 65" />
+               </svg>
+          </label>
+     </div>
+
+     <!--Main-->
+     <main id="project">
+
+
+          <section class="col-80 margin-auto">
+               <h2>Project Name</h2>
+
+               <!-- Slider container -->
+               <div class="slider">
+                    <!-- slide 1 -->
+                    <div class="slide">
+                         <img src="https://source.unsplash.com/random?landscape,mountain" alt="">
+                    </div>
+
+                    <!-- slide 2 -->
+                    <div class="slide">
+                         <img src="https://source.unsplash.com/random?landscape,cars" alt="">
+                    </div>
+
+                    <!-- slide 3 -->
+                    <div class="slide">
+                         <img src="https://source.unsplash.com/random?landscape,night" alt="">
+                    </div>
+
+                    <!-- slide 4 -->
+                    <div class="slide">
+                         <img src="https://source.unsplash.com/random?landscape,city" alt="">
+                    </div>
+
+                    <!-- Control buttons -->
+                    <button class="btn btn-next"> > </button>
+                    <button class="btn btn-prev">
+                         < </button>
+               </div>
+          </section>
+
+
+          <section>
+               <article class="col-40 col-left">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                         labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                         laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                         voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                         non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+                    <p>Urna et pharetra pharetra massa massa ultricies. Gravida dictum fusce ut placerat orci nulla
+                         pellentesque dignissim. Amet aliquam id diam maecenas. Eget duis at tellus at urna.</p>
+
+                    <a href="#" target="_blank"><button class="primary-btn">Button</button></a>
+               </article>
+
+               <article class="col-30 col-right">
+                    <h4>Another Heading</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                         labore et dolore magna aliqua. Ac auctor augue mauris augue neque gravida in fermentum et.</p>
+
+                    <h4>Another Heading</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                         labore et dolore magna aliqua. Ac auctor augue mauris augue neque gravida in fermentum et.</p>
+
+                    <h4>Another Heading</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                         labore et dolore magna aliqua. Ac auctor augue mauris augue neque gravida in fermentum et.</p>
+               </article>
+          </section>
+
+
+          <section>
+               <figure class="col-30 col-left">
+                    <img src="img/placeholder.png" alt="image alt tag goes here" class="round-corners">
+               </figure>
+
+               <article class="col-40 col-right">
+                    <h2 class="auto-width">Section Heading</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                         labore et dolore magna aliqua. Ac auctor augue mauris augue neque gravida in fermentum et. Cras
+                         fermentum odio eu feugiat pretium nibh ipsum. Placerat orci nulla pellentesque dignissim enim
+                         sit amet.</p>
+               </article>
+          </section>
+
+          <section class="flex-reverse">
+               <figure class="col-30 col-right">
+                    <img src="img/placeholder.png" alt="image alt tag goes here" class="round-corners">
+               </figure>
+
+               <article class="col-40 col-left">
+                    <h2 class="auto-width">Section Heading</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                         labore et dolore magna aliqua. Ac auctor augue mauris augue neque gravida in fermentum et. Cras
+                         fermentum odio eu feugiat pretium nibh ipsum. Placerat orci nulla pellentesque dignissim enim
+                         sit amet.</p>
+               </article>
+          </section>
+
+
+
+          <section>
+               <h2 class="col-80 margin-auto center-text">Section Heading</h2>
+               <article class="col-60 margin-auto center-text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                         labore et dolore magna aliqua. Ac auctor augue mauris augue neque gravida in fermentum et.</p>
+
+                    <a href="#" target="_blank"><button class="primary-btn">Button</button></a>
+               </article>
+          </section>
+
+
+     </main>
+
+
+     <!--Footer-->
+     <footer>
+          <a href="#" target="_blank" class="linkedin-btn"></a>
+          <a href="#" target="_blank" class="twitter-btn"></a>
+
+          <p id="copyright">Copyright Student Name 2023</p>
+     </footer>
+
+
+     <!--Scripts-->
+     <script src="js/main.js"></script>
+</body>
+
+</html>
