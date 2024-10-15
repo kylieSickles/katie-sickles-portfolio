@@ -71,12 +71,12 @@ h1 {
     display: flex;
     align-items: center;
     font-family: "Lancelot", serif;
-    font-size: 2rem;
+    font-size: 1.5rem;
 
 }
 
 h2 {
-    font-size: 1.5em;
+    font-size: 2em;
     font-weight: 700;
     padding-bottom: 30px;
     font-family: "Lancelot", serif;
@@ -362,7 +362,7 @@ header {
 
 .menu--1 path {
     fill: none;
-    stroke: #000;
+    stroke: #F2F4F9;
     stroke-width: 3;
     stroke-linecap: round;
     stroke-linejoin: round;
@@ -374,7 +374,7 @@ header {
 }
 
 .menu--1 circle {
-    fill: #fff3;
+    fill: #191A1E;
     opacity: 0;
 }
 
@@ -435,7 +435,7 @@ nav {
     z-index: 997;
     height: 100vh;
     width: 100vw;
-    background-color: #F2F4F9;
+    background-color: #453159;
     transition: right 1s;
     font-size: 2em;
     opacity: 1;
